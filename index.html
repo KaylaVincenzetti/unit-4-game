@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang= "en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cyrstals Collector Game</title>
+
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        
+
+    </head>
+    <body>
+
+    <div id="game">
+        
+        <div id="gameName">
+            <h1><strong>Crystals Collector Game!</strong></h1>
+        
+        </div>
+
+        <div id="instructions">
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <p>You will win the game by matching your total score to a random number, you lose the game if your total score goes above the random number.</p>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <p>Each time when the game starts, the game will change the value of each crystal.</p>
+
+
+        </div>
+
+        <div class="clearFix">
+            <section id="matchNumber">
+                
+            </section>
+
+            <aside>
+                <p>Wins:</p>
+                <P>Losses:</P>
+            </aside>
+
+        </div>
+        
+        <!--use relative paths for images by ./... -->
+        <div id="crystals">
+            <img id="one" class="c-image" src="./assets/images/crystal1.jpg" alt="crystals">
+            <img id="two" class="c-image" src="./assets/images/crystal2.jpg" alt="crystals">
+            <img id="three" class="c-image" src="./assets/images/crystal3.jpg" alt="crystals">
+            <img id="four" class="c-image" src ="./assets/images/cyrstal4.jpg" alt="crystals">
+
+        </div>
+
+        <div id="score">
+
+            <p>Your total score is:</p>
+              
+        </div>
+
+        <div id="totalScore">
+
+            <p id="userScore"></p>
+
+        </div>
+
+    </div>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    </body>
+</html>

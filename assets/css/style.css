@@ -1,0 +1,69 @@
+body {
+    /* use relative paths for background imagaes by "../..." */
+    background-image: url("../images/background.jpg");
+}
+
+#gameName {
+    background: white;
+    width: 350px;
+    color: blue;
+}
+
+#instructions {
+    background: aqua;
+    width: 520px;
+    height: 270px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+section {
+    float: left;
+    background: rgb(14, 196, 165);
+    width: 260px;
+    height: 135px;
+    padding: 10px;
+    margin-right: 10px;
+    color:blue;
+    font-size: 42px;
+    
+    
+}
+
+aside {
+    float: left;
+    background: #80ffce;
+    color: blue;
+    width: 73px;
+    height: 135px;
+    padding: 10px;
+    
+}
+
+.clearFix::after {
+    content: "";
+    display: block;
+    clear: both;
+    margin-top: 10px;
+}
+
+.c-image {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+#score {
+    background: #008080;
+    width: 290px;
+    height: 25px;;
+    margin-top: -15px;
+}
+
+#totalScore {
+    background: #008080;
+    width: 290px;
+    height: 135px;
+    margin-top: -30px;
+    font-size: 42px;
+}
