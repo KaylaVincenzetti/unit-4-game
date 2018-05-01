@@ -53,14 +53,14 @@ aside {
     margin-top: 20px;
 }
 
-#score {
+#totalScore {
     background: #008080;
     width: 290px;
     height: 25px;;
     margin-top: -15px;
 }
 
-#totalScore {
+#score {
     background: #008080;
     width: 290px;
     height: 135px;

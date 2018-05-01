@@ -3,12 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <title>Cyrstals Collector Game</title>
-
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         
-        
-
     </head>
     <body>
 
@@ -35,34 +32,35 @@
             </section>
 
             <aside>
-                <p>Wins:</p>
-                <P>Losses:</P>
+                <p>Wins:<span id="userWins"></span></p>
+                <P>Losses:<span id="userLoss"></span></P>
             </aside>
 
         </div>
         
         <!--use relative paths for images by ./... -->
         <div id="crystals">
-            <img id="one" class="c-image" src="./assets/images/crystal1.jpg" alt="crystals">
-            <img id="two" class="c-image" src="./assets/images/crystal2.jpg" alt="crystals">
-            <img id="three" class="c-image" src="./assets/images/crystal3.jpg" alt="crystals">
-            <img id="four" class="c-image" src ="./assets/images/cyrstal4.jpg" alt="crystals">
+            <img id="crystal-1" class="c-image" src="./assets/images/crystal1.jpg" alt="crystals">
+            <img id="crystal-2" class="c-image" src="./assets/images/crystal2.jpg" alt="crystals">
+            <img id="crystal-3" class="c-image" src="./assets/images/crystal3.jpg" alt="crystals">
+            <img id="crystal-4" class="c-image" src ="./assets/images/cyrstal4.jpg" alt="crystals">
 
         </div>
 
-        <div id="score">
+        <div id="totalScore">
 
             <p>Your total score is:</p>
               
         </div>
 
-        <div id="totalScore">
+        <div id="score">
 
             <p id="userScore"></p>
 
         </div>
 
     </div>
+    
     <script type="text/javascript" src="assets/javascript/game.js"></script>
     </body>
 </html>
